@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4a7a3325fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/J-transparant-WHITE.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>  Aspiring Software Developer</p>
+                <h1>Hi, I'm <span> Jack</span> Nicholas <br> 
+                    From SRM VEC <h1>
+
+            </div>
+<!-------------------------about------------------------>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="=sub-title"> About Me</h1>
+                        <P>My interest towards this field of computer sciene began expanding 
+                            ever since my dad bought me a computer when I was eleven. My career objective is to obtain 
+                            a position that challenges
+                            me and provides me the opportunity
+                            to reach my full potential
+                            professionally and personally
+                            utilizing my abilities in an
+                            organization that is progressive
+                            intellectually and technically and
+                            one in which practices collaborative
+                            leadership, integrity and honesty. </P>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('intern')">Interns</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Basic Programming</span><br>Python/Java/C</li>
+                            <li><span>Database Management</span><br>SQL</li>
+                            <li><span>Web App Development</span><br>HTML/CSS/JS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="intern">
+                        <ul>
+                            <li><span>2022</span><br>RETECH SOLUTIONS, Chennai </li>
+                            <li><span>2023</span><br>Cathey Gems and Jewellery, Trichy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2023</span><br>B.E Computer Sciene and Engineering at SRM VEC (CGPA-8.99) </li>
+                            <li><span>2018-2019</span><br>12th grade at Alagu Jothi Academy (CGPA-7.98)</li>
+                            <li><span>2016-2017</span><br>10th grade at Alagu Jothi Academy (CGPA-9.4)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+<!-----------------services----------------->   
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>Python</h2>
+            <p>An important trait of a python developer is to make use of the advanced coding language
+                on a variety of programs to design thier technological frameworks. I have been practicing with 
+            for quite a while now, it has been very easy to learn and develop my skills on it with some very handy projects.  </p>
+            <a href="#">learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-chrome"></i>
+            <h2>Web Development</h2>
+            <p> Creating and designing websites has always been fun and interesting, and a great platform to learn as well.
+                making user friendly and responsive sites have been a helpful source of developing the skills in this domain
+            I look forward to build websites which can be beneficial for my skill set.  </p>
+            <a href="#">learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>Java</h2>
+            <p> This language is relatively platform-independent, accessible, interactive, fast, secure, learnable and portable. 
+                Java programmers and developers are often in high demand due to the frequent development of software products written in the language. 
+                So having learnt this programming language on a basic level can increase my employability and professional prospects. </p>
+                <a href="#">learn more</a>
+        </div>
+        </div>
+
+    </div>
+
+</div> 
+<!----------------portfolio-------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <a href="https://660e9d38cb023c107be169cf--statuesque-biscochitos-e34987.netlify.app/"><img src="images/spotify.jpg"></a>
+                <div class="layer">
+                <h3>Spotify Web App</h3>
+                <p>The web application is a lite version of 
+                    famous music streaming platform spotify but filled
+                    with the hits of my favourite music composer - A.R. Rahman
+
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <a href="https://nft-blockchain-ruby.vercel.app/"><img src="images/bitcoin.jpg"></a>
+                <div class="layer">
+                    <h3>DAPP WEB 3.0</h3>
+                    <p>Tokenizing these real-world tangible assets makes buying, selling, 
+                        and trading them more efficient while reducing the probability of fraud.
+                        So we have taken it as an initiative 
+                        to achieve a secured technology for customers.
+    
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                
+            </div>
+            <div class="work">
+                <a href="https://car-design-dcd5.vercel.app/index.html"><img src="images/car.jpg"></a>
+                <div class="layer">
+                    <h3>Car Showreel</h3>
+                    <p>The web application is a bootstrap based project that showcases various 
+                        models of renault cars and suvs. 
+    
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                
+                
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!------------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>jacknicholasraj@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>8072800653</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/jack.nicholas.75/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/saacknicholas"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/saacknicholas/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jack-nicholas-7469b8224/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/resume new.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email " required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Jack . Made With <i class="fa-solid fa-hand-holding-heart"></i> Inspired By GreatStack </p>
+        </div>
+    </div>
+
+
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px"
+        }
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwqa957BjhfaN_rs8TI77fhHMrQJaT08UrR3u9JkH7ABMyiVrvtk0SMXS8NwA9rMBVHOQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form,reset()
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
